@@ -13,7 +13,8 @@
 			<div class="col-md-8" style=" text-align: right;">
 				<div class="header-info-test">
 					<h4 class="hb-header">ONLINE BANKING</h4>
-					<iframe id="tethered_frame" width="426" height="99" src="https://northmaincu-dn.financial-net.com/idp/BD7FB063/tethered" style="position: left; z-index: 100; background: transparent; border: none;" scrolling="no" title="Online Banking Login"></iframe>
+					<iframe class="frame-res" id="tethered_frame" src="https://northmaincu-dn.financial-net.com/idp/BD7FB063/tethered" style="position: left; z-index: 100; background: transparent; border: none;" scrolling="no" title="Online Banking Login">
+					</iframe>
 					<p style="margin-bottom: 0 !important; vertical-align: text-bottom; text-transform: uppercase;"><a href="#" data-toggle="modal" data-target="#ezcard" class="button primary rounded" style="background-color: #C30E2E; border: solid 1px;
     border-color: #666666; color: #FFFFFF; font-family: 'Open Sans', Arial, sans-serif; font-size: 12px; font-weight: 700; text-decoration: none;">Credit Card Access</a></p>
 					<!--<iframe frameborder="0" height="50" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true" src="https://www.financial-net.com/ethiconcu/Logon?LoginMethod=Express" title="Online Banking"></iframe>-->
