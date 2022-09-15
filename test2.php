@@ -44,7 +44,7 @@
         }
 
         .btn-de-dark {
-            background-color: #333b47 !important;
+            background-color: #333b47;
         }
     </style>
 
