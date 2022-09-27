@@ -8,6 +8,8 @@
 
     <?php include 'inc/header.php'; ?>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -57,108 +59,143 @@
         </header><!-- .site-header -->
         <div id="content" class="site-content">
             <main id="main" class="site-main">
-                <section class="main-slider fullscreen">
-                    <div class="slider">
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active c-indicator" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active data-bs-interval="2000"">
+						
+							<a href="https://www.northmaincu.org/pages/loans-index.php" target="_blank">
+
+							
+							<img src="images/banners/2022/Save the Date ICU Day.png" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--                                <h5>First slide label</h5>-->
+								<a href="https://www.northmaincu.org/pages/loans-index.php" target="_blank" class="banner-btn btn-de-dark">Learn More</a>
+<!--                                <p>Some representative placeholder content for the first slide.</p>-->
+                            </div>
+                        </div>
+                        <div class="carousel-item data-bs-interval="2000"">
+							
+							<a href="https://www.northmaincu.org/pages/loans-index.php" target="_blank">
+							
+                            <img src="images/banners/2022/summer-vacation.jpg" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--                                <h5>Second slide label</h5>-->
+<!--                                <p>Some representative placeholder content for the second slide.</p>-->
+							<a href="https://www.northmaincu.org/pages/loans-index.php" target="_blank" class="banner-btn btn-de-dark">Learn More</a>
 
 
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/Save the Date ICU Day.png" alt="">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pages/loans-index.php" class="button primary rounded" target="_blank" aria-label="Learn More About Summer Vacation" style="    margin-top: -60px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
+                            </div>
+                        </div>
+                        <div class="carousel-item data-bs-interval="2000"">
+							
+							<a href="https://www.northmaincu.org/pdf/loan-application.pdf" target="_blank">
+							
+							
+                            <img src="images/banners/2022/carloan.jpg" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+-->
+							<a href="https://www.northmaincu.org/pdf/loan-application.pdf" target="_blank" class="banner-btn btn-de-dark">Learn More</a>
 
+                            </div>
+                        </div>
+						 <div class="carousel-item data-bs-interval="2000"">
+							 
+							<a href="https://www.northmaincu.org/pages/credit-cards.php" target="_blank">
 
+							 
+                            <img src="images/banners/2022/creditcard.png" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+-->
+								<a href="https://www.northmaincu.org/pages/credit-cards.php" target="_blank" class="banner-btn btn-de-dark">Learn More</a>
 
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/summer-vacation.png" alt="Vacation Loan">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pages/loans-index.php" class="button primary rounded" target="_blank" aria-label="Learn More About Summer Vacation" style="    margin-top: -60px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
+                            </div>
+                        </div>
+						 <div class="carousel-item data-bs-interval="2000"">
+							 
+							<a href="https://www.northmaincu.org/pages/who-can-join.php" target="_blank">
 
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/carloan.png" alt="Car Loan">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pdf/loan-application.pdf" class="button primary rounded" target="_blank" aria-label="Learn More About Car Loans" style="    margin-top: -60px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
+							 
+                            <img src="images/banners/2022/fieldofmembership.jpg" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+-->
+								<a href="https://www.northmaincu.org/pages/who-can-join.php" target="_blank" class="banner-btn btn-de-light">Learn More</a>
 
+                            </div>
+                        </div>
+						 <div class="carousel-item data-bs-interval="2000"">
+							 
+							<a href="https://www.northmaincu.org/pages/zelle.php" target="_blank">
 
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/creditcard.png" alt="Credit Card">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pages/credit-cards.php" class="button primary rounded" target="_blank" aria-label="Learn More About Credit Cards" style="    margin-top: 200px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
+							 
+                            <img src="images/banners/2022/zelle.jpg" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+-->
+								<a href="https://www.northmaincu.org/pages/zelle.php" target="_blank" class="banner-btn btn-de-light">Learn More</a>
 
+                            </div>
+                        </div>
+						
+						 <div class="carousel-item data-bs-interval="2000"">
+							 
+							<a href="https://www.northmaincu.org/pages/online-banking.php" target="_blank">
 
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/fieldofmembership.png" alt="Membership">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pages/who-can-join.php" class="button primary rounded" target="_blank" aria-label="Learn More About Memberships" style="    margin-top: -120px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
+							 
+                            <img src="images/banners/2022/mobileapp.jpg" class="d-block w-100" alt="..." />
+								
+								</a>
+                            <div class="carousel-caption d-none d-md-block">
+<!--
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+-->
+								<a href="https://www.northmaincu.org/pages/online-banking.php" target="_blank" class="banner-btn btn-de-light">Learn More</a>
 
-
-
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/zelle.png" alt="Zelle">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pages/zelle.php" class="button primary rounded" target="_blank" aria-label="Learn More About Zelle" style="    margin-top: -110px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
-
-
-                        <!-- .item -->
-                        <div class="item">
-                            <img src="images/banners/2022/mobileapp.png" alt="Mobile App">
-                            <div class="container">
-                                <div class="slider-content">
-                                    <div class="button-action">
-                                        <a href="pages/online-banking.php" class="button primary rounded" target="_blank" aria-label="Learn More About Mobile App" style="    margin-top: 380px;">Learn More</a>
-                                    </div>
-                                </div>
-                            </div><!-- .container -->
-                        </div><!-- .item -->
-
-
-
-
-
-                    </div><!-- .slider -->
-                </section><!-- .main-slider -->
-
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
                 <section id="university-courses-3">
                     <div class="container">
                         <h2 class="main-title ribbon"><span>Our Services</span></h2>
@@ -218,6 +255,8 @@
     <?php include 'inc/modals.php'; ?>
     <?php include 'inc/scripts.php'; ?>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
