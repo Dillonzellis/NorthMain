@@ -302,7 +302,73 @@
             </main><!-- .site-main -->
         </div><!-- .site-content -->
 
-        <?php include 'inc/footer.php'; ?>
+        <div id="bottom" class="site-bottom">
+			<div class="container">
+				<div class="footer-widget bottom1">
+					<div class="row">
+
+						<div class="col-md-3">
+							<div class="widget contact-widget">
+								<h3 class="widget-title">Contact Us</h3>
+								<ul>
+									<li class="address"><a href="https://www.northmaincu.org/pages/location-hours.php">255 North Main St. Cornelia, GA 30531</a></li>
+									<li class="mobile">(706) 894-9060</li>
+									<li class="email"><a href="mailto:customercare@northmaincu.org">customercare@northmaincu.org</a></li>
+									<li class="time-work">Mon, Tue, Thurs and Fri<br />8:00 a.m. - 4:30 p.m.<br />Wed 10:00 a.m. - 4:30 p.m.</li>
+								</ul>
+							</div><!-- .widget -->
+						</div>
+
+						<div class="col-md-3">
+							<div class="widget">
+								<h3 class="widget-title">Quick links</h3>
+								<ul>
+									<li><a href="https://www.northmaincu.org/pages/privacy-policy.php" title="Privacy Statement">Privacy Statement</a></li>
+									<li><a href="#" data-toggle="modal" data-target="#ezcard" title="MasterCard Online Banking Access">MasterCard Online Banking Access</a></li>
+									<li><a href="https://www.northmaincu.org/pages/calculators.php" title="Calculators">Calculators</a></li>
+									<li><a href="https://www.northmaincu.org/pages/faqs.php" title="FAQs">FAQs</a></li>
+								</ul>
+							</div><!-- .widget -->
+						</div>
+						
+						<div class="col-md-3">
+							<div class="widget">
+								<h3 class="widget-title">Follow Us</h3>
+								<div class="socials">
+									<p align="left"><a href="#" data-toggle="modal" data-target="#facebook" title="Facebook"><img src="https://www.northmaincu.org/images/facebook.png" alt="Facebook"></a> <a href="#" data-toggle="modal" data-target="#instagram" title="Instagram"><img src="https://www.northmaincu.org/images/instagram.png" alt="Instagram"></a></p>
+									
+								</div>
+							</div><!-- .widget -->
+						</div>
+
+						<div class="col-md-3">
+							<div class="widget contact-widget">
+								<p align="center"><img src="https://www.northmaincu.org/images/ncua-logo.jpg" alt="NCUA" title="NCUA"><br>
+								  Federally  insured by NCUA								  <br><br>
+									<img src="https://www.northmaincu.org/images/equal-housing-logo.png" alt="Equal Housing Lender" title="Equal Housing Lender"><br>
+<br>
+NMLS Number:<br>
+1104542</p>
+							</div><!-- .widget -->
+						</div>
+					</div>
+				</div><!-- .bottom1 -->
+			</div><!-- .container -->
+		</div><!-- .site-bottom -->
+
+		<footer id="footer" class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							<p align="center">Copyright © 2017 North Main Credit Union. All Rights Reserved. Federally Insured by NCUA.</p>
+							<p align="center">North Main Credit Union is committed to providing equal access to all individuals, including those with disabilities, seeking information on our website. If you are unable to access content on this
+website, have questions about accessibility of content or technology used by North Main Credit Union, and/or would like to report barriers to accessing any technology used by North Main Credit Union, including this website, please contact us at 255 North Main St., Cornelia, GA 30531, Email: <a href="mailto:customercare@northmaincu.org?subject=Website ADA Compliance" title="customercare@northmaincu.org">customercare@northmaincu.org</a>, fax: 706-894-9070 and Phone: 706-894-9060.</p>
+						</div><!-- .copyright -->
+					</div>
+				</div>
+			</div><!-- .container -->
+		</footer><!-- .site-footer -->
 
     </div><!-- #wrapper -->
     <?php include 'inc/modals.php'; ?>
