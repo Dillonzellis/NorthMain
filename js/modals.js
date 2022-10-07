@@ -6,6 +6,7 @@ const closeFbModal= document.querySelector('.close-fb-modal');
 
 openFbModal.addEventListener('click', ()=>{
     fbModal.showModal();
+    console.log('clicked');
 })
 closeFbModal.addEventListener('click', ()=>{
     fbModal.close();

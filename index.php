@@ -335,7 +335,13 @@
 							<div class="widget">
 								<h3 class="widget-title">Follow Us</h3>
 								<div class="socials">
-									<p align="left"><a href="#" data-toggle="modal" data-target="#facebook" title="Facebook"><img src="https://www.northmaincu.org/images/facebook.png" alt="Facebook"></a> <a href="#" data-toggle="modal" data-target="#instagram" title="Instagram"><img src="https://www.northmaincu.org/images/instagram.png" alt="Instagram"></a></p>
+									<p align="left">
+                                        
+                                    <button class="open-fb-modal"><img src="https://www.northmaincu.org/images/facebook.png" alt="Facebook"></button>
+                                    
+                                    <button class="open-insta-modal"><img src="https://www.northmaincu.org/images/instagram.png" alt="Instagram"></button>
+                                
+                                    </p>
 									
 								</div>
 							</div><!-- .widget -->
